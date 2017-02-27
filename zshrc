@@ -9,7 +9,7 @@ export ZSH=/Users/marcillien/.oh-my-zsh
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="honukai"
 
-plugins=(git colored-man colorize github jira virtualenv pip python brew osx zsh-syntax-highlightning alias-tips)
+plugins=(git git-flow colored-man colorize github jira virtualenv pip python brew osx zsh-syntax-highlightning alias-tips)
 
 source $ZSH/oh-my-zsh.sh
 
