@@ -8,7 +8,6 @@ export ZSH=/Users/marcillien/.oh-my-zsh
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="honukai"
-# foo1
 
 plugins=(git git-flow colored-man colorize github jira virtualenv pip python brew osx zsh-syntax-highlightning alias-tips)
 
