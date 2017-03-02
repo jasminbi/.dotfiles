@@ -13,7 +13,7 @@ ZSH_THEME="honukai"
 plugins=(git git-flow colored-man colorize github jira virtualenv pip python brew osx zsh-syntax-highlightning alias-tips)
 
 # Custom
-. ./scripts/z.sh
+. ~/.dotfiles/scripts/z.sh
 
 
 source $ZSH/oh-my-zsh.sh
