@@ -14,6 +14,11 @@ plugins=(git git-flow colored-man colorize github jira virtualenv pip python bre
 # Custom
 . ~/.dotfiles/scripts/z.sh
 
+# Project Alias
+alias kvnr='echo "KVASIR_BUILD_NUMBER=$(curl -sL http://frontend-team:HONOR-BOTSWANA-northern-strong@ci-frontend.siroop.work/job/kvasir-resiroop-pipeline/lastSuccessfulBuild/api/json | jq -r '.number')"'
 
+# System Alias
+alias dev='yarn run develop'
+alias ssha='ssh-add -K ~/.ssh/id_rsa'
 source $ZSH/oh-my-zsh.sh
 
